@@ -12,7 +12,7 @@ public class User {
         
     }
     
-    public User(int id, String firstName, String lastName, String password, String role){
+    public User(int id, String firstName, String lastName, String password, String role) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -59,4 +59,5 @@ public class User {
     public void setRole(String role) {
         this.role = role;
     }
+    
 }
