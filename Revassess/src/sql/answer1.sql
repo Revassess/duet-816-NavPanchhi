@@ -1,0 +1,1 @@
+SELECT APP_USER.user_id,APP_USER.username,APP_USER.password,APP_USER.first_name,APP_USER.last_name from app_user inner join user_role on user_role.role_id = app_user.role_id where user_role.name = 'BASIC_USER';
